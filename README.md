@@ -1,30 +1,21 @@
-# React + TypeScript + Vite
+# Git Finder
+**"Git Finder" é um aplicativo web que permite aos usuários procurar usuários do github e ver suas informações principais, além de conseguir ver seus projetos com mais estrelas e os mais recentes**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Funcionalidades Principais ##
 
-Currently, two official plugins are available:
+<ul>
+        <li>Localização de Usuários: O projeto permite a localização dos usuários do github baseado em seu nome</li>
+        <li>Visualização de Projetos: O usuário pode ver os melhores projetos, baseado na quantidade de estrelas nele, além de poder ver também os projetos mais recentes.</li>
+        <li>Link Direto: O aplicativo permite o rápido direcionamento para os projetos ao clicar em "Ver código".</li>
+      </ul>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologias Utilizadas ##
 
-## Expanding the ESLint configuration
+<ul>
+        <li>Front-end: O front-end do Party Hub foi desenvolvido utilizando a biblioteca React.</li>
+        <li>Back-end: No lado do servidor, o aplicativo utiliza Node.js.</li>
+        <li>Banco de Dados: O banco de dados MongoDB foi escolhido para armazenar e gerenciar os dados das festas.</li>
+      </ul>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Referências
+Projeto feito a partir do curso da Udemy "Formação Front-end - HTML, CSS, JavaScript, React e +" (https://www.udemy.com/course/formacao-front-end-html-css-javascript-react-e/)
